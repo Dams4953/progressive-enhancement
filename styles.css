@@ -37,14 +37,75 @@ body {
     
 }
 
-q {
+.farmer {
+    border-color: #9b6477;
     width: 45%;
     font-size: 160%;
     background-color: #ebebeb;
     border-left-style: solid;
-    border-color: firebrick;
     border-width: 3px;
     border-spacing: 30px;
     padding-left: 30px;
-    
+}
+
+.neighbors {
+    border-color: #ffff00;
+    width: 45%;
+    font-size: 160%;
+    background-color: #ebebeb;
+    border-left-style: solid;
+    border-width: 3px;
+    border-spacing: 30px;
+    padding-left: 30px;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+#list li:nth-child(1) {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+#list li:nth-child(2) {
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+#list li:nth-child(3) {
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+#firstpara p:nth-child(1) {
+    font-weight: bold;
 }
