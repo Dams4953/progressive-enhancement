@@ -1,7 +1,7 @@
 p {
     font-family: Georgia, serif;
     line-height: 1.6;
-    font-size: 20px;
+    font-size: 15px;
     color: #3d3c2b;
 }
 
@@ -39,24 +39,12 @@ body {
 
 .farmer {
     border-color: #9b6477;
-    width: 45%;
-    font-size: 160%;
-    background-color: #ebebeb;
-    border-left-style: solid;
-    border-width: 3px;
-    border-spacing: 30px;
-    padding-left: 30px;
+    
 }
 
 .neighbors {
     border-color: #ffff00;
-    width: 45%;
-    font-size: 160%;
-    background-color: #ebebeb;
-    border-left-style: solid;
-    border-width: 3px;
-    border-spacing: 30px;
-    padding-left: 30px;
+    
 }
 
 h1 {
@@ -65,6 +53,16 @@ h1 {
 
 blockquote {
     font-style: italic;
+    border-color: #9b6477;
+    width: 45%;
+    font-size: 160%;
+    background-color: #ebebeb;
+    border-left-style: solid;
+    border-width: 3px;
+    border-spacing: 30px;
+    padding-left: 30px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .good {
@@ -108,4 +106,8 @@ tr:nth-child(odd) {
 
 #firstpara p:nth-child(1) {
     font-weight: bold;
+}
+
+.image1 {
+    float: left;
 }
