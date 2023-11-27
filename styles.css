@@ -7,7 +7,6 @@ p {
 
 a {
     text-decoration: none;
-    color: #1b019b;
 }
 
 a:link {
@@ -20,4 +19,32 @@ a:hover {
 
 a:visited {
     color: #e73e01;
+}
+
+body {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 10px;
+    background : linear-gradient(#88cc80, #acd0a4);
+    background-image: url("https://img.freepik.com/vecteurs-libre/fond-vague-blanche-lisse_52683-55288.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: cover;
+    
+    
+}
+
+q {
+    width: 45%;
+    font-size: 160%;
+    background-color: #ebebeb;
+    border-left-style: solid;
+    border-color: firebrick;
+    border-width: 3px;
+    border-spacing: 30px;
+    padding-left: 30px;
+    
 }
