@@ -4,3 +4,20 @@ p {
     font-size: 20px;
     color: #3d3c2b;
 }
+
+a {
+    text-decoration: none;
+    color: #1b019b;
+}
+
+a:link {
+    color: #1b019b;
+}
+
+a:hover {
+    color: #c9e734;
+}
+
+a:visited {
+    color: #e73e01;
+}
